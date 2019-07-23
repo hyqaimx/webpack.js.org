@@ -40,7 +40,7 @@ __webpack.config.js__
     },
 +   devtool: 'inline-source-map',
     plugins: [
-      new CleanWebpackPlugin(['dist']),
+      new CleanWebpackPlugin({}),
       new HtmlWebpackPlugin({
         title: 'Development'
       })
